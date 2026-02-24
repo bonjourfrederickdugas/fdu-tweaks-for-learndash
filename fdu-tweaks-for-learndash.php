@@ -3,8 +3,8 @@
  * Plugin Name: FDU Tweaks for LearnDash
  * Description: Tweaks and enhancements for LearnDash by Boreal Shifts Consulting (FDU).
  * Version: 1.0.0
- * Author: Frederick Dugas Consultingc
- * Author URI: https://borealshifts.com
+ * Author: Frederick Dugas Consulting
+ * Author URI: https://frederickdugas.com
  * License: GPL-2.0+
  * Text Domain: fdu-plugin
  */
