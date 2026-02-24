@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: FDU Tweaks for LearnDash
- * Description: Tweaks and enhancements for LearnDash by Boreal Shifts Consulting (FDU).
+ * Description: Tweaks and enhancements for LearnDash by Frederick Dugas Consulting.
  * Version: 1.0.0
  * Author: Frederick Dugas Consulting
  * Author URI: https://frederickdugas.com
@@ -29,7 +29,7 @@ register_activation_hook(
     [ 'FDU\\TweaksForLearnDash\\Database\\Installer', 'install' ]
 );
 
-if ( ! LicenseGate::allow( __FILE__ ) ) {
+if ( ! class_exists( 'LearnDash_LMS' ) && ! defined( 'LEARNDASH_VERSION' ) ) {
     return;
 }
 
